@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alampur Sofiya — Portfolio</title>
+
+  <!-- fonts + icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- your CSS -->
+  <link rel="stylesheet" href="port.css">
+</head>
+<body>
+  <header>
+    <!-- Off-canvas sidebar (mobile) -->
+    <aside id="sidebar" class="sidebar" aria-hidden="true">
+      <button class="close-btn" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      <nav class="sidebar-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <!-- overlay -->
+    <div id="overlay" class="overlay" aria-hidden="true"></div>
+
+    <!-- Top navbar -->
+    <div class="navbar">
+      <nav class="nav-inner">
+        <div class="logo" id="logo">AS</div>
+
+        <!-- desktop links -->
+        <div class="link desktop-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <!-- hamburger (mobile) -->
+        <button class="hamburger" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- HOME -->
+      <section id="home" class="home">
+        <div class="home-text">
+          <h2>Hi I'm</h2>
+          <h1>Alampur Sofiya</h1>
+          <h3>Full Stack Development Enthusiast</h3>
+          <p class="home-cont">
+            I am an aspiring Full Stack Developer, eager to learn and grow in the world of web development.
+            Currently focused on building my frontend skills, I enjoy experimenting with projects that challenge my creativity and push me to improve step by step.
+          </p>
+          <a href="#about"><button class="btn">See More</button></a>
+        </div>
+        <div class="home-img">
+          <img src="image/hani.jpg" alt="Alampur Sofiya">
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about">
+        <div class="about-text">
+          <h2 class="a">About Me</h2>
+          <p class="para">Hello! I'm <strong> Almpur Sofiya</strong>, a Computer Science Engineering student at RUCE, graduating in 2026. I’m an enthusiastic <strong>Full-Stack Web Developer</strong> in the making, driven by the curiosity to turn ideas into interactive and meaningful web applications. I have a solid foundation in frontend development and am currently expanding my skills in backend technologies to create fully functional, end-to-end solutions.</p>
+            <p class="para">I’m passionate about <strong>learning by building</strong>—exploring new tools, frameworks, and programming concepts every day. I thrive on solving real-world challenges with code and believe that consistent effort and experimentation are the keys to growth.</p>
+            <p class="para">Feel free to connect with me on <a href="https://www.linkedin.com/in/alampur-sofiya-518601292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRBNhVXWKREWhzXc8psfTkw%3D%3D">LinkedIn</a> or explore my projects on <a href="https://github.com/ummehani5454">GitHub</a>. I’m always open to collaboration, networking, and exciting opportunities with fellow tech enthusiasts.</p>
+
+        </div>
+
+        <div class="skills">
+          <h2 class="skills-heading"><strong>Skills</strong></h2>
+          <div class="skills-section">
+            <h4>Languages</h4>
+            <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Java</li></ul>
+          </div>
+          <div class="skills-section">
+            <h4>Tools</h4>
+            <ul><li>Git & GitHub</li>
+                <li>Terminal</li>
+                <li>Hoppscotch</li>
+                <li>Vercel</li>
+            </ul>
+          </div>
+          <div class="skills-section">
+            <h4>Framework</h4>
+            <ul><li>Bootstrap</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <h2 class="projects-heading">Projects</h2>
+        <div class="projects-grid">
+          <div class="projects-card"><img src="image/pr1jpg.jpg" alt="project 1"></div>
+          <div class="projects-content">
+            <a href="https://github.com/ummehani5454/project-1" target="_blank">project-1</a>
+            <p class="p">Project 1: HWBT — a motivational webpage built with HTML & CSS.</p>
+            <p>This project is a motivational webpage built with HTML and CSS.
+                             It highlights the theme “Hard work beats talent when talent doesn’t work.”
+                             The page is clean, responsive, and easy to navigate.</p>
+          </div>
+          <div class="projects-content">
+            <a href="https://github.com/ummehani5454/project-2" target="_blank">project-2</a>
+            <p class="p">Project 2: Make New Friends — a social-style webpage using HTML & CSS.</p>
+            <p>This project is a social media-style webpage using HTML and CSS.
+                                It shows how people can connect and make new friends online.
+                               The design is colorful, simple, and user-friendly.</p>
+          </div>
+
+          <div class="projects-card"><img src="image/pr2..jpg" alt="project 2"></div>
+          
+
+          <div class="projects-card"><img src="image/pr3.jpg" alt="project 3"></div>
+          <div class="projects-content">
+            <a href="https://github.com/ummehani5454/project-3" target="_blank">project-3</a>
+            <p class="p">Project 3: Travel Agency — a responsive page for an international travel agency.</p>
+            <p>A responsive web page built using HTML and CSS for an International Travel Agency.
+                               It allows users to explore destinations and book trips online easily.
+                                This project highlights clean design and smooth navigation features.</p>
+          </div>
+          <div class="projects-content">
+            <a href="https://github.com/ummehani5454/project-4" target="_blank">project-4</a>
+            <p class="p">Project 4: Netflix Clone — practice of layout and media-focused UI.</p>
+            <p>A clone of Netflix UI built with HTML and CSS for practicing frontend skills.
+                               It includes a modern layout with sections for movies and sign-in options.
+                                This project helped me learn responsive design and media-focused websites.</p>
+          </div>
+
+          <div class="projects-card"><img src="image/pr4.png" alt="project 4"></div>
+          
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="contact-heading">
+          <h2>Get In Touch</h2>
+          <p>I’d really love to hear from you! Whether it’s about a project, some advice, or just a friendly hello — you can drop me a message, and I’ll get back to you as soon as I can.”</p>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="contact-row">
+              <div class="contact-info"><input type="text" id="firstName" placeholder="First Name" required></div>
+              <div class="contact-info"><input type="text" id="lastName" placeholder="Last Name" required></div>
+            </div>
+            <div class="contact-info"><input type="email" id="email" placeholder="Email" required></div>
+            <div class="contact-info"><textarea id="message" placeholder="Message" required></textarea></div>
+            <button type="submit" class="submit">Connect !</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="icon">
+      <a href="https://github.com/ummehani5454" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+      <a href="https://in.linkedin.com/in/alampur-sofiya-518601292" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:alampursofiya@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p id="para">Designed & Built by <br> Alampur Sofiya &copy; 2025</p>
+  </footer>
+  
+
+
+  <!-- your JS -->
+  <script src="port.js"></script>
+</body>
+</html>
